@@ -10,7 +10,7 @@ To insert fault in SNN (VGG), check `self_models/vgg_spiking.py`, line 100-105
 ```
 		self.frate = 0.01
 		self.fault = {}
-		self.ftype = 'stuck-at-one' # 'stuck-at-one'
+		self.ftype = 'stuck-at-zero' # 'stuck-at-one'
 		self.finit = False
 		self.f_threshold = {}
 ```
