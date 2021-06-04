@@ -17,6 +17,10 @@ To insert fault in SNN (VGG), check `self_models/vgg_spiking.py`, line 100-105
 
 The accuracy for pretrained SNN can be seen in ``logs/snn/`` folder.
 
+![alt text](Accuracy.png "Overall accuracy")
+Caption: The accuracy vs error rate.
+
+<br><br><br><br><br>
 
 ---
 
