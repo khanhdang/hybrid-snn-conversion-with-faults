@@ -1,5 +1,5 @@
 
- Run on time: 2021-06-02 17:31:21.258994
+ Run on time: 2021-05-15 18:51:49.143415
 
  Arguments: 
 	 gpu                  : True
@@ -9,7 +9,7 @@
 	 architecture         : VGG16
 	 learning_rate        : 0.0001
 	 pretrained_ann       : 
-	 pretrained_snn       : ./trained_models/snn/snn_vgg16_cifar10.pth
+	 pretrained_snn       : ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
 	 test_only            : True
 	 log                  : True
 	 epochs               : 2
@@ -31,22 +31,22 @@
 	 test_acc_every_batch : False
 	 train_acc_batches    : 200
 	 devices              : 0
- Loaded module.features.0.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.3.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.6.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.9.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.12.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.15.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.18.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.21.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.24.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.27.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.30.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.33.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.features.36.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.classifier.0.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.classifier.3.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
- Loaded module.classifier.6.weight from ./trained_models/snn/snn_vgg16_cifar10.pth
+ Loaded module.features.0.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.3.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.6.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.9.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.12.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.15.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.18.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.21.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.24.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.27.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.30.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.33.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.features.36.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.classifier.0.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.classifier.3.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
+ Loaded module.classifier.6.weight from ./trained_models/snn/snn_vgg16_cifar10_stuck-at-one_0.2551.pth
  DataParallel(
   (module): VGG_SNN_STDB(
     (input_layer): PoissonGenerator()
@@ -109,4 +109,5 @@ Parameter Group 0
     eps: 1e-08
     lr: 0.0001
     weight_decay: 0.0005
-)
+) test_loss: 5133.9858, test_acc: 0.1000, best: 0.1000 time: 0:36:04
+ Highest accuracy: 0.1000
